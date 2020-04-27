@@ -31,6 +31,7 @@ public class Person extends BaseEntity {
 	@NotEmpty
 	private String firstName;
 
+	// validating lastName field
 	@Column(name = "last_name")
 	@NotEmpty
 	private String lastName;
